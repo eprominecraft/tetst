@@ -266,7 +266,6 @@ function Library:CreateMain(Options)
 			Size = UDim2.new(1, 0, 1, 0),
 			CanvasSize = UDim2.new(0, 0, 0, 15),
 			Visible = false,
-			ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0),
 			ScrollBarThickness = 4,
 		})
 
@@ -1109,7 +1108,6 @@ function Library:CreateMain(Options)
 							ZIndex = 2,
 							CanvasSize = UDim2.new(0, 0, 0, 0),
 							ScrollBarThickness = 3,
-							ScrollBarImageColor3 = Themes.CharcoalContrast,
 						})
 
 						table.insert(Objects.CharcoalContrast , Interactables.list)
@@ -1505,7 +1503,6 @@ function Library:CreateMain(Options)
 							ZIndex = 2,
 							CanvasSize = UDim2.new(0, 0, 0, 0),
 							ScrollBarThickness = 3,
-							ScrollBarImageColor3 = Color3.fromRGB(0,0,0),
 						})
 
 						table.insert(Objects.CharcoalContrast , Interactables.list)
@@ -2356,8 +2353,6 @@ function Library:SetThemeColor(Theme, Color)
 		for i,v in pairs(Objects.CharcoalContrast) do 
 			if not v:IsA("ScrollingFrame") then 
 				v.ImageColor3 = Color
-			else
-				v.ScrollBarImageColor3 = Color 
 			end
 		end  	
 	end 
