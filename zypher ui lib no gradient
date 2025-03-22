@@ -147,7 +147,6 @@ function Library:CreateMain(Options)
 		ImageColor3 = Themes.Background,
 		ScaleType = Enum.ScaleType.Slice,
 		SliceCenter = Rect.new(100, 100, 100, 100),
-		SliceScale = 0.04,
 	})
 
 	table.insert(Objects.Background, Main.Categoriesselector)
@@ -317,7 +316,6 @@ function Library:CreateMain(Options)
 				ImageColor3 = Themes.SectionContrast,
 				ScaleType = Enum.ScaleType.Slice,
 				SliceCenter = Rect.new(100, 100, 100, 100),
-				SliceScale = 0.04,
 			})
 
 			table.insert(Objects.SectionContrast, Section.Container)
@@ -384,7 +382,6 @@ function Library:CreateMain(Options)
 						ImageColor3 = Themes.DarkContrast,
 						ScaleType = Enum.ScaleType.Slice,
 						SliceCenter = Rect.new(100, 100, 100, 100),
-						SliceScale = 0.040,
 					})
 
 					table.insert(Objects.DarkContrast, Interactables.Button)
@@ -455,7 +452,6 @@ function Library:CreateMain(Options)
 						ImageColor3 = Themes.DarkContrast,
 						ScaleType = Enum.ScaleType.Slice,
 						SliceCenter = Rect.new(100, 100, 100, 100),
-						SliceScale = 0.040,
 					})
 
 					table.insert(Objects.DarkContrast ,Interactables.Slider)
@@ -502,7 +498,6 @@ function Library:CreateMain(Options)
 						ImageColor3 = Themes.CharcoalContrast,
 						ScaleType = Enum.ScaleType.Slice,
 						SliceCenter = Rect.new(100, 100, 100, 100),
-						SliceScale = 0.03,
 						ZIndex = 1,
 					})
 
@@ -518,8 +513,7 @@ function Library:CreateMain(Options)
 						Image = "rbxassetid://3570695787",
 						ImageColor3 = Themes.TextColor,
 						ScaleType = Enum.ScaleType.Slice,
-						SliceCenter = Rect.new(100, 100, 100, 100),
-						SliceScale = 0.03,				
+						SliceCenter = Rect.new(100, 100, 100, 100),				
 					})
 
 					table.insert(Objects.TextColor, Interactables.SliderInner)
@@ -594,7 +588,6 @@ function Library:CreateMain(Options)
 						ImageColor3 = Themes.DarkContrast,
 						ScaleType = Enum.ScaleType.Slice,
 						SliceCenter = Rect.new(100, 100, 100, 100),
-						SliceScale = 0.040,
 					})
 
 					table.insert(Objects.DarkContrast ,Interactables.Toggle)
@@ -623,7 +616,6 @@ function Library:CreateMain(Options)
 						ImageColor3 = Themes.CharcoalContrast,
 						ScaleType = Enum.ScaleType.Slice,
 						SliceCenter = Rect.new(100, 100, 100, 100),
-						SliceScale = 0.040,
 					})
 
 					table.insert(Objects.CharcoalContrast, Interactables.ToggleBack)
@@ -636,7 +628,6 @@ function Library:CreateMain(Options)
 						Image = "rbxassetid://3570695787",
 						ScaleType = Enum.ScaleType.Slice,
 						SliceCenter = Rect.new(100, 100, 100, 100),
-						SliceScale = 0.040,
 					})
 
 					table.insert(Objects.TextColor, Interactables.ToggleShow)
@@ -704,7 +695,6 @@ function Library:CreateMain(Options)
 						ImageColor3 = Themes.DarkContrast,
 						ScaleType = Enum.ScaleType.Slice,
 						SliceCenter = Rect.new(100, 100, 100, 100),
-						SliceScale = 0.040,
 					})
 
 					table.insert(Objects.DarkContrast , Interactables.TextBox)
@@ -734,7 +724,6 @@ function Library:CreateMain(Options)
 						ImageColor3 = Themes.CharcoalContrast,
 						ScaleType = Enum.ScaleType.Slice,
 						SliceCenter = Rect.new(100, 100, 100, 100),
-						SliceScale = 0.030,
 					})
 
 					table.insert(Objects.CharcoalContrast, Interactables.TextBoxBack)
@@ -787,7 +776,6 @@ function Library:CreateMain(Options)
 						ImageColor3 = Themes.DarkContrast,
 						ScaleType = Enum.ScaleType.Slice,
 						SliceCenter = Rect.new(100, 100, 100, 100),
-						SliceScale = 0.040,
 					})
 
 					table.insert(Objects.DarkContrast , Interactables.TextLabelBox)
@@ -837,7 +825,6 @@ function Library:CreateMain(Options)
 						ImageColor3 = Themes.DarkContrast,
 						ScaleType = Enum.ScaleType.Slice,
 						SliceCenter = Rect.new(100, 100, 100, 100),
-						SliceScale = 0.040,
 					})
 
 					table.insert(Objects.DarkContrast , Interactables.KeyBindBox)
@@ -868,7 +855,6 @@ function Library:CreateMain(Options)
 						ImageColor3 = Themes.CharcoalContrast,
 						ScaleType = Enum.ScaleType.Slice,
 						SliceCenter = Rect.new(100, 100, 100, 100),
-						SliceScale = 0.040,
 					})
 
 					table.insert(Objects.CharcoalContrast, Interactables.KeyBindButton)
@@ -1041,7 +1027,6 @@ function Library:CreateMain(Options)
 							ImageColor3 = Themes.DarkContrast,
 							ScaleType = Enum.ScaleType.Slice,
 							SliceCenter = Rect.new(100, 100, 100, 100),
-							SliceScale = 0.040,
 						})
 
 						table.insert(Objects.DarkContrast , Interactables.dropdownb)
@@ -1060,7 +1045,6 @@ function Library:CreateMain(Options)
 							ImageColor3 = Themes.DarkContrast,
 							ScaleType = Enum.ScaleType.Slice,
 							SliceCenter = Rect.new(100, 100, 100, 100),
-							SliceScale = 0.040,
 						})
 
 						table.insert(Objects.DarkContrast , Interactables.dropdown)
@@ -1112,7 +1096,6 @@ function Library:CreateMain(Options)
 							ImageColor3 = Themes.DropDownListContrast,
 							ScaleType = Enum.ScaleType.Slice,
 							SliceCenter = Rect.new(100, 100, 100, 100),
-							SliceScale = 0.040,
 						})
 
 						table.insert(Objects.DropDownListContrast, Interactables.listb)
@@ -1183,7 +1166,6 @@ function Library:CreateMain(Options)
 									ImageColor3 = Themes.DarkContrast,
 									ScaleType = Enum.ScaleType.Slice,
 									SliceCenter = Rect.new(100, 100, 100, 100),
-									SliceScale = 0.040,
 								})
 
 								table.insert(Objects.DarkContrast, button)
@@ -1441,7 +1423,6 @@ function Library:CreateMain(Options)
 							ImageColor3 = Themes.DarkContrast,
 							ScaleType = Enum.ScaleType.Slice,
 							SliceCenter = Rect.new(100, 100, 100, 100),
-							SliceScale = 0.040,
 						})
 
 						table.insert(Objects.DarkContrast , Interactables.dropdownb)
@@ -1460,7 +1441,6 @@ function Library:CreateMain(Options)
 							ImageColor3 = Themes.DarkContrast,
 							ScaleType = Enum.ScaleType.Slice,
 							SliceCenter = Rect.new(100, 100, 100, 100),
-							SliceScale = 0.040,
 						})
 
 						table.insert(Objects.DarkContrast , Interactables.dropdown)
@@ -1512,7 +1492,6 @@ function Library:CreateMain(Options)
 							ImageColor3 = Themes.DropDownListContrast,
 							ScaleType = Enum.ScaleType.Slice,
 							SliceCenter = Rect.new(100, 100, 100, 100),
-							SliceScale = 0.040,
 						})
 
 						table.insert(Objects.DropDownListContrast, Interactables.listb)
@@ -1583,7 +1562,6 @@ function Library:CreateMain(Options)
 									ImageColor3 = Themes.DarkContrast,
 									ScaleType = Enum.ScaleType.Slice,
 									SliceCenter = Rect.new(100, 100, 100, 100),
-									SliceScale = 0.040,
 								})
 
 								table.insert(Objects.DarkContrast, button)
@@ -1873,7 +1851,6 @@ function Library:CreateMain(Options)
 						ImageColor3 = Themes.DarkContrast,
 						ScaleType = Enum.ScaleType.Slice,
 						SliceCenter = Rect.new(100, 100, 100, 100),
-						SliceScale = 0.040,
 					})
 
 					table.insert(Objects.DarkContrast , Interactables.colorpickerb)
@@ -1906,7 +1883,6 @@ function Library:CreateMain(Options)
 						ImageColor3 = Color3.fromRGB(255, 0, 4),
 						ScaleType = Enum.ScaleType.Slice,
 						SliceCenter = Rect.new(100, 100, 100, 100),
-						SliceScale = 0.040,
 					})
 
 					Interactables.ColorpickerFrameBack = Library:Create("Frame", {
@@ -1950,7 +1926,6 @@ function Library:CreateMain(Options)
 						ImageColor3 = Color3.fromRGB(46, 46, 54),
 						ScaleType = Enum.ScaleType.Slice,
 						SliceCenter = Rect.new(128, 128, 128, 128),
-						SliceScale = 0.040,
 					})
 
 					Interactables.HueRing = Library:Create("ImageLabel", {
